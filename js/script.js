@@ -1,10 +1,20 @@
 
 
-
-
-
 const gridContainer = document.querySelector('#grid_container');
 const gridSquares = gridContainer.childNodes;
+const squaresButton = document.querySelector('#squares_button');
+
+squaresButton.addEventListener('click', function() {
+    prompt("How many squares per row?");
+});
+
+
+
+
+
+
+
+
 
 
 
@@ -19,7 +29,6 @@ for (i = 0; i < 256; i++) {
     gridContainer.appendChild(divGrid);
 
 }
-
 
 gridSquares.forEach(function(i) {
     i.addEventListener('mouseover', function() {
