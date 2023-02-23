@@ -1,7 +1,7 @@
 .grid_container {
     display: flex;
     flex-wrap: wrap;
-    height: 32rem;
-    width: 32rem;
+    height: 16rem;
+    width: 16rem;
     box-sizing: border-box;
 }
